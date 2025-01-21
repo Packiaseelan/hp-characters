@@ -81,6 +81,21 @@ This feature module architecture follows Clean Architecture principles, organizi
 - Layered feature modules for clear separation of concerns.
 - Support for shared utilities.
 
+
+## App Screenshots
+
+<div style="display: flex; justify-content: space-around; align-items: center;">
+  <div style="text-align: center; margin: 10px;">
+    <img src="Document/StudentListScreen.png" alt="Student List Screen" width="45%" />
+    <p><strong>Student List Screen</strong><br />Displays the list of students with their names and details.</p>
+  </div>
+  <div style="text-align: center; margin: 10px;">
+    <img src="Document/StudentDetailsScreen.png" alt="Student Details Screen" width="45%" />
+    <p><strong>Student Details Screen</strong><br />Shows detailed information about a selected student.</p>
+  </div>
+</div>
+
+
 ## Unit Testing
 
 ### Running Tests
