@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scheme
+   LastUpgradeVersion = "1600"
+   version = "1.7">
+   <BuildAction
+      parallelizeBuildables = "YES"
+      buildImplicitDependencies = "YES"
+      buildArchitectures = "Automatic">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "8E1ACF232D2B73EC004712B0"
+               BuildableName = "HPCharacters.app"
+               BlueprintName = "HPCharacters"
+               ReferencedContainer = "container:HPCharacters.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
+   </BuildAction>
+   <TestAction
+      buildConfiguration = "Debug"
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      shouldAutocreateTestPlan = "YES">
+      <Testables>
+         <TestableReference
+            skipped = "NO"
+            parallelizable = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "8E1ACF332D2B73EF004712B0"
+               BuildableName = "HPCharactersTests.xctest"
+               BlueprintName = "HPCharactersTests"
+               ReferencedContainer = "container:HPCharacters.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO"
+            parallelizable = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "8E1ACF3D2D2B73EF004712B0"
+               BuildableName = "HPCharactersUITests.xctest"
+               BlueprintName = "HPCharactersUITests"
+               ReferencedContainer = "container:HPCharacters.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "CharactersTests"
+               BuildableName = "CharactersTests"
+               BlueprintName = "CharactersTests"
+               ReferencedContainer = "container:HPCharacters/Features/Characters">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "CoreTests"
+               BuildableName = "CoreTests"
+               BlueprintName = "CoreTests"
+               ReferencedContainer = "container:HPCharacters/Neu/Core">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "CharactersUITests"
+               BuildableName = "CharactersUITests"
+               BlueprintName = "CharactersUITests"
+               ReferencedContainer = "container:HPCharacters/Features/Characters">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "NavigationManagerTests"
+               BuildableName = "NavigationManagerTests"
+               BlueprintName = "NavigationManagerTests"
+               ReferencedContainer = "container:HPCharacters/Neu/NavigationManager">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "NetworkManagerTests"
+               BuildableName = "NetworkManagerTests"
+               BlueprintName = "NetworkManagerTests"
+               ReferencedContainer = "container:HPCharacters/Neu/NetworkManager">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "SharedTests"
+               BuildableName = "SharedTests"
+               BlueprintName = "SharedTests"
+               ReferencedContainer = "container:HPCharacters/Features/Shared">
+            </BuildableReference>
+         </TestableReference>
+      </Testables>
+   </TestAction>
+   <LaunchAction
+      buildConfiguration = "Debug"
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      launchStyle = "0"
+      useCustomWorkingDirectory = "NO"
+      ignoresPersistentStateOnLaunch = "NO"
+      debugDocumentVersioning = "YES"
+      debugServiceExtension = "internal"
+      allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "8E1ACF232D2B73EC004712B0"
+            BuildableName = "HPCharacters.app"
+            BlueprintName = "HPCharacters"
+            ReferencedContainer = "container:HPCharacters.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+   </LaunchAction>
+   <ProfileAction
+      buildConfiguration = "Release"
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      savedToolIdentifier = ""
+      useCustomWorkingDirectory = "NO"
+      debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "8E1ACF232D2B73EC004712B0"
+            BuildableName = "HPCharacters.app"
+            BlueprintName = "HPCharacters"
+            ReferencedContainer = "container:HPCharacters.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+   </ProfileAction>
+   <AnalyzeAction
+      buildConfiguration = "Debug">
+   </AnalyzeAction>
+   <ArchiveAction
+      buildConfiguration = "Release"
+      revealArchiveInOrganizer = "YES">
+   </ArchiveAction>
+</Scheme>

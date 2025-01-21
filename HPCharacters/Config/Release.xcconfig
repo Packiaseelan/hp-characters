@@ -1,0 +1,2 @@
+BASE_URL_PROTOCOL = https
+BASE_URL_HOST = hp-api.herokuapp.com
