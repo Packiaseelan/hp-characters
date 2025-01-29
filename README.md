@@ -104,16 +104,10 @@ The application fetches data from the following API:
 
 ## App Screenshots
 
-<div style="display: flex; justify-content: space-around; align-items: center;">
-  <div style="text-align: center; margin: 10px;">
-    <img src="Document/StudentListScreen.png" alt="Student List Screen" width="45%" />
-    <p><strong>Student List Screen</strong><br />Displays the list of students with their names and details.</p>
-  </div>
-  <div style="text-align: center; margin: 10px;">
-    <img src="Document/StudentDetailsScreen.png" alt="Student Details Screen" width="45%" />
-    <p><strong>Student Details Screen</strong><br />Shows detailed information about a selected student.</p>
-  </div>
-</div>
+| Student List | Student Details |
+|---|---|
+| Displays the list of students with their names and details. | Shows detailed information about a selected student. |
+| <img src="Document/StudentListScreen.png"> | <img src="Document/StudentDetailsScreen.png"> |
 
 
 ## Unit Testing
