@@ -6,12 +6,13 @@ import Combine
 public class NetworkManager: NetworkManagerProtocol {
     /// The base URL for the network requests.
     private let baseURL: String
+    /// The URLSession instance used to perform network requests.
     private let urlSession: URLSession
 
     /// Initializes a new instance of `NetworkManager`.
     /// - Parameter baseURL: The base URL to be used for all network requests.
-    /// - Parameter urlSession: The `URLSession` instance for network calls (default is `URLSession.shared`).
-    public init(baseURL: String, urlSession: URLSession = URLSession.shared) {
+    /// - Parameter urlSession: The `URLSession` instance for network calls (default is `SecureURLSession.shared`).
+    public init(baseURL: String, urlSession: URLSession = SecureURLSession.shared) {
         self.baseURL = baseURL
         self.urlSession = urlSession
     }

@@ -12,6 +12,13 @@ The architecture is built on:
 
 Each module adheres to Swift Package Manager (SPM) conventions and is compatible with iOS 14.0 and above.
 
+
+## Requirements
+
+   - **XCode** 16.0 or later.
+   - **iOS** 17.0 or later.
+
+
 ## Architecture Diagram
 
 Below is a visual representation of the modular architecture:
@@ -82,13 +89,31 @@ This feature module architecture follows Clean Architecture principles, organizi
 - Support for shared utilities.
 
 
+## API Reference
+
+The application fetches data from the following API:
+[Harry Potter API](https://hp-api.herokuapp.com/)
+
+### Endpoints
+
+| API | Endpoint | Description |
+|---|---|---|
+| Student List | `/characters/students` | Retrieves a list of all students. |
+| Student Details | `/character/:id` | Fetches details of a specific student by ID. |
+
+
 ## App Screenshots
 
-
-| Student List Screen                                              | Student Details Screen                                              |
-|------------------------------------------------------------------|----------------------------------------------------------------------|
-| ![Student List Screen](Document/StudentListScreen.png)    | ![Student Details Screen](Document/StudentDetailsScreen.png)  |
-| **Displays the list of students**<br />Displays the list of students with their profile picture and name. | **Detailed view for each student**<br />Shows detailed information about a selected student. |
+<div style="display: flex; justify-content: space-around; align-items: center;">
+  <div style="text-align: center; margin: 10px;">
+    <img src="Document/StudentListScreen.png" alt="Student List Screen" width="45%" />
+    <p><strong>Student List Screen</strong><br />Displays the list of students with their names and details.</p>
+  </div>
+  <div style="text-align: center; margin: 10px;">
+    <img src="Document/StudentDetailsScreen.png" alt="Student Details Screen" width="45%" />
+    <p><strong>Student Details Screen</strong><br />Shows detailed information about a selected student.</p>
+  </div>
+</div>
 
 
 ## Unit Testing
