@@ -10,13 +10,8 @@ public struct ProfileImage: View {
     public var body: some View {
         Group {
             if #available(iOS 15.0, *), !imageUrl.isEmpty {
-                AsyncImage(url: URL(string: imageUrl)) { image in
-                    image
-                        .resizable()
-                        .scaledToFill()
-                } placeholder: {
-                    ProgressView()
-                }
+                ImageView(imageUrl: imageUrl)
+                    .frame(width: UIScreen.main.bounds.width / 2 - 24)
             } else {
                 Image(systemName: "person.circle.fill")
                     .resizable()

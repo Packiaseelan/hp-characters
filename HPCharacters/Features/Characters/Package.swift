@@ -23,6 +23,7 @@ let package = Package(
         .package(path: "../Neu/NavigationManager"),
         .package(path: "../Shared"),
         .package(url: "https://github.com/pointfreeco/swift-snapshot-testing", exact: "1.17.4"),
+        .package(url: "https://github.com/onevcat/Kingfisher.git", from: "7.0.0")
     ],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
@@ -73,7 +74,7 @@ let package = Package(
         
         .target(
             name: "CharactersUiKit",
-            dependencies: ["Shared" ,"Core"],
+            dependencies: ["Shared" ,"Core", "Kingfisher"],
             path: "Sources/UiKit"
         ),
     ]
