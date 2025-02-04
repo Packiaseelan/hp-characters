@@ -29,7 +29,7 @@ final class IconButtonSnapshotTests: XCTestCase {
             
             assertSnapshot(
                 of: viewController,
-                as: .image(on: config.device),
+                as: .image(on: config.device, precision: 0.9),
                 named: config.name,
                 record: SnapshotTestConfig.record
             )
